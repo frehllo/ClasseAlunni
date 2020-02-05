@@ -46,7 +46,7 @@ namespace ListaAlunni
             txt_lista.Text = null;
             for (int i = 0; i < listanomi.Count; i++)
             {
-                txt_lista.Text += $"{listanomi[i]}\n";
+                txt_lista.Text += $"{listanomi[i]}\n ";
             }
         }
         const string file = "lista.txt";
